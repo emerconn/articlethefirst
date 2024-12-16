@@ -1,7 +1,9 @@
 <div id="user-content-toc">
-  <ul style="list-style: none;">
+  <ul align="center" style="list-style: none;">
     <summary>
-      <h1>articlethefirst</h1>
+      <a href="https://articlethefirst.org">
+        <h1>articlethefirst.org</h1>
+      </a>
     </summary>
   </ul>
 </div>
