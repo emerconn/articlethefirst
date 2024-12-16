@@ -1,4 +1,0 @@
-# Terraform
-.terraform/
-terraform.tfvars
-terraform.tfstate*
