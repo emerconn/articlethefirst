@@ -6,3 +6,5 @@
     </summary>
   </ul>
 </div>
+
+<div align="center">27 states left to ratify</div>
