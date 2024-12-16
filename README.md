@@ -1,5 +1,7 @@
 <div id="user-content-toc">
-  <summary>
-    <h1>articlethefirst</h1>
-  </summary>
+  <ul style="list-style: none;">
+    <summary>
+      <h1>articlethefirst</h1>
+    </summary>
+  </ul>
 </div>
