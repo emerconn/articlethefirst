@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Article the First</title>
     
     <!-- Critical Meta Tags -->
     <meta name="description" content="Join the movement to pass Article the First, the Congressional Apportionment Amendment, for fair representation in the US House of Representatives">
+    <meta name="keywords" content="Article the First, Congressional Apportionment Amendment, US Constitution, House of Representatives, fair representation, constitutional amendment, ratification">
+    <meta name="author" content="articlethefirst.org">
     <link rel="canonical" href="https://articlethefirst.org">
 
     <!-- Preload Critical Resources -->
@@ -14,7 +16,7 @@
     <link rel="preload" href="assets/github-logo-240x240.png" as="image">
     <link rel="preload" href="assets/twitter-logo-235x240.png" as="image">
 
-    <!-- Social Media Tags (Consolidated) -->
+    <!-- Social Media Tags -->
     <meta property="og:site_name" content="Article the First">
     <meta property="og:url" content="https://articlethefirst.org">
     <meta property="og:type" content="website">
@@ -23,90 +25,85 @@
     <meta property="og:image" content="https://articlethefirst.org/favicon-512x512.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@articlefirstorg">
+    <meta name="twitter:creator" content="@articlefirstorg">
+    <meta name="twitter:title" content="Article the First">
+    <meta name="twitter:description" content="Join the movement to pass Article the First, the Congressional Apportionment Amendment, for fair representation in the US House of Representatives">
+    <meta name="twitter:image" content="https://articlethefirst.org/favicon-512x512.png">
 
-    <!-- Favicon (Optimized) -->
+    <!-- Google AdSense -->
+    <meta name="google-adsense-account" content="ca-pub-6264338305340143">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="apple-touch-icon" href="favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-180x180.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon-512x512.png">
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" media="print" onload="this.media='all'">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 
-    <!-- Inlined Critical CSS -->
+    <!-- Original CSS Preserved -->
     <style>
-        :root {
-            --primary-color: #fff;
-            --background-color: #000;
-            --spacing: 10px;
-            --max-width: 90%;
+    * {
+            font-family: "Fjalla One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
         }
-        
-        * {
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            font-family: "Fjalla One", sans-serif;
-        }
-
-        body {
             min-height: 100vh;
-            background-color: var(--background-color);
-            color: var(--primary-color);
+            width: 100%;
+            background-color: black;
         }
-
-        .flex-center {
+        body, div, header, footer, section {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-
-        body, header, main, section, footer {
-            composes: flex-center;
-            flex-direction: column;
-        }
-
-        .row {
-            composes: flex-center;
+        div {
             flex-direction: row;
         }
-
-        hr {
-            height: 2px;
-            width: min(30em, var(--max-width));
-            border: 0;
-            background-image: linear-gradient(to right, transparent, rgba(204,204,204,0.5), transparent);
-            margin: var(--spacing) 0;
-        }
-
-        h1, h2, h3, p, a {
-            margin: var(--spacing) 25px;
-            text-align: center;
-            color: var(--primary-color);
-        }
-
-        img {
-            height: 40px;
-            margin: 0 var(--spacing);
-        }
-
         section {
             margin: 20px 0;
         }
-
-        ul {
-            list-style-position: inside;
+        img {
+            height: 40px;
+            margin-inline: 10px;
         }
-
-        li {
-            margin: var(--spacing) 25px;
-            color: var(--primary-color);
+        hr {
+            height: 2px;
+            width: 30em;
+            max-width: 90%;
+            border: 0;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(204, 204, 204, 0.5), rgba(0, 0, 0, 0));
         }
-
+        hr, h1, h2, h3, p, a {
+            color: white;
+            margin: 10px 0;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            margin-inline: 25px;
+        }
+        h1 {
+            font-weight: 550;
+        }
+        p, li {
+            margin: 10px 25px;
+            color: white;
+        }
         li:first-child {
             margin-top: 0;
         }
     </style>
 
-    <!-- Structured Data (Minified) -->
+    <!-- Structured Data -->
     <script type="application/ld+json">
         {"@context":"https://schema.org","@type":"Organization","url":"https://articlethefirst.org","logo":"https://articlethefirst.org/favicon-512x512.png","name":"articlethefirst.org","description":"Join the movement to pass Article the First, the Congressional Apportionment Amendment, for fair representation in the US House of Representatives.","email":"contact@articlethefirst.org"}
     </script>
@@ -139,7 +136,7 @@
     </main>
 
     <footer>
-        <div class="row">
+        <div>
             <a href="https://github.com/emerconnelly/articlethefirst" target="_blank" rel="noopener"><img src="assets/github-logo-240x240.png" alt="GitHub Logo" loading="lazy"></a>
             <a href="https://twitter.com/articlefirstorg" target="_blank" rel="noopener"><img src="assets/twitter-logo-235x240.png" alt="Twitter Logo" loading="lazy"></a>
         </div>
