@@ -1,2 +1,3 @@
+Sitemap: https://articlethefirst.org/robots.txt
 User-agent: *
 Allow: /
