@@ -1,5 +1,5 @@
 # Security Policy
 
-## Reporting a Vulnerability
+## Submit Report
 
-To report a vulnerability, please email [contact@articlethefirst.org](mailto:contact@articlethefirst.org).
+To submit a report, please email [contact@articlethefirst.org](mailto:contact@articlethefirst.org).
